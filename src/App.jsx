@@ -6,10 +6,13 @@ import { SavedBooks } from "./SavedBooks";
 function App() {
   return (
     <RecoilRoot>
-      <div className="App">
-        <SavedBooks />
-        <Books />
-      </div>
+      <center>
+        <div className="App">
+          <h1>Using Recoil for state management</h1>
+          <SavedBooks />
+          <Books />
+        </div>
+      </center>
     </RecoilRoot>
   );
 }
